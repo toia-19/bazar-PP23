@@ -1,0 +1,21 @@
+/* CONTENIDO GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Mooli&display=swap');
+
+/* El signo "*" referencia a toda la estructura de la página */
+*{
+    background-color: white;
+    font-family: 'Mooli', sans-serif;
+}
+
+/* NAVEGADOR */
+
+/* CONTENIDO PRINCIPAL */
+.container{
+    padding: 1rem;
+}
+
+.titulo{
+    text-align: center;
+}
+
+/* PIE DE PÁGINA */
