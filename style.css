@@ -3,11 +3,13 @@
 
 /* El signo "*" referencia a toda la estructura de la página */
 *{
-    background-color: white;
     font-family: 'Mooli', sans-serif;
 }
 
 /* NAVEGADOR */
+.encabezado{
+    background-color: #FF6D1F;
+}
 
 /* CONTENIDO PRINCIPAL */
 .container{
@@ -19,3 +21,6 @@
 }
 
 /* PIE DE PÁGINA */
+.pie{
+    background-color: #FF6D1F;
+}

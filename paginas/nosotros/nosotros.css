@@ -1,0 +1,77 @@
+.encabezado{
+    background-color: #FF6D1F;
+}
+
+.container{
+    padding: 1rem;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.linea {
+    padding-top: 0em;
+    margin-top: 0em;
+    border-bottom: solid 2px #000;
+}
+
+.separador{
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background: rgb(255,107,0);
+    background: linear-gradient(0deg,  rgba(255,233,35,1) 0%, rgba(255,168,17,1) 47%, rgba(255,107,0,1) 93%);
+
+    border-radius: 35% 20rem;
+
+    border-start-start-radius: 35% 20rem;
+    border-end-start-radius: 35% 20rem;
+
+    border-start-end-radius: 35% 20rem;
+    border-end-end-radius: 35% 20rem;
+}
+
+.botones{
+    text-align: center;
+    padding: 1rem;
+}
+
+a{
+    color: white !important;
+    text-decoration: none;
+}
+
+a :hover{
+    color: white !important;
+    text-decoration: none;
+}
+
+button{
+    border-radius: 50%;
+    color: white;
+}
+
+#whatsapp{
+    background-color: #A2FF86;
+}
+
+#instagram{
+    background-color: #FF3FA4;
+}
+
+#facebook{
+    background-color: #687EFF;
+}
+
+#twitter{
+    background-color: #B6FFFA;
+}
+
+#tiktok{
+    background-color: #8062D6;
+}
+
+.pie{
+    background-color: #FF6D1F;
+}
