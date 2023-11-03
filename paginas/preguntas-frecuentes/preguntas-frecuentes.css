@@ -1,0 +1,33 @@
+.encabezado{
+    background-color: #FF6D1F;
+}
+
+.container{
+    padding: 1rem;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.separador{
+    padding: 1rem;
+    background: rgb(117,255,71);
+    background: linear-gradient(0deg, rgba(237,252,232,1) 0%, rgba(187,255,165,1) 47%, rgba(117,255,71,1) 93%);
+    border-radius: 35% 20rem;
+
+    border-start-start-radius: 35% 20rem;
+    border-end-start-radius: 35% 20rem;
+
+    border-start-end-radius: 35% 20rem;
+    border-end-end-radius: 35% 20rem;
+}
+
+.botones{
+    text-align: center;
+    padding: 1rem;
+}
+
+.pie{
+    background-color: #FF6D1F;
+}

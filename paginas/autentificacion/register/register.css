@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap');
+
+/*Estilos del body de la landing page*/
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gabarito', cursive; /* Fuente de texto */
+    background: fixed;
+    background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+    background-color: #FFE4AD;
+}
+
+/* Estilo para el formulario de inicio de sesión */
+.form-container {
+    position: relative; /* Establece la posición del elemento relativa a su posición original */
+    justify-content: center; /* Alinea el contenido horizontalmente al centro */
+    align-items: center; /* Alinea el contenido verticalmente al centro */
+    width: 320px; /* Establece un ancho de 320 píxeles */
+    border-radius: 1.5rem; /* Aplica bordes redondeados de 0.75rem */
+    background-color: #EDEDED; /* Establece el fondo en negro */
+    border: 1px solid white; /* Agrega un borde blanco de 1 píxel */
+    padding: 2rem; /* Agrega un relleno interno de 1 rem (unidad relativa) */
+    color: black; /* Establece el color del texto */
+}
+
+/* Estilo para el título */
+.title {
+    text-align: center; /* Alinea el texto al centro */
+    font-size: 2rem; /* Establece el tamaño de fuente a 2 rem (unidad relativa) */
+    line-height: 2rem; /* Establece la altura de línea a 2 rem */
+    font-weight: 200; /* Establece el peso de la fuente a 700 (negrita) */
+}
+
+/* Estilo para el contenedor del formulario */
+.form {
+    display: flex; /* Usa el modelo de caja flexible */
+    flex-direction: column; /* Coloca los elementos en columna */
+}
+
+/* Estilo para el grupo de elementos de entrada (etiqueta y campo de entrada) */
+.input-group {
+    margin-top: 0.25rem; /* Agrega un pequeño margen en la parte superior */
+    font-size: 0.875rem; /* Establece el tamaño de fuente a 0.875 rem */
+    line-height: 1.25rem; /* Establece la altura de línea a 1.25 rem */
+}
+
+/* Estilo para las etiquetas dentro del grupo de entrada */
+.input-group label {
+    display: block; /* Hace que las etiquetas se muestren en bloque (una debajo de la otra) */
+    color:black; /* Establece el color del texto de la etiqueta */
+    margin-bottom: 4px; /* Agrega un pequeño margen en la parte inferior de la etiqueta */
+}
+
+/* Estilo para los campos de entrada dentro del grupo */
+.input-group input {
+    display: flex;
+    border-color: white;
+    justify-content: center;
+    width: 85%; /* Establece el ancho del campo de entrada al 90% del contenedor */
+    border-radius: 0.3rem; /* Aplica bordes redondeados de 0.375rem */
+    background-color: white; /* Establece el color de fondo del campo */
+    padding: 0.75rem 1rem; /* Agrega relleno interno al campo de entrada */
+    color: black; /* Establece el color del texto en el campo */
+}
+
+/* Estilo para el campo de entrada cuando tiene el enfoque */
+.input-group input:focus {
+    border-color: rgba(167, 139, 250); /* Cambia el color del borde cuando el campo de entrada tiene el enfoque */
+}
+
+/* Estilo para el enlace "Olvidé mi contraseña" */
+.forgot {
+    display: flex; /* Usa el modelo de caja flexible */
+    justify-content: center; /* Alinea el contenido al final (derecha) */
+    font-size: 0.75rem; /* Establece el tamaño de fuente a 0.75 rem */
+    line-height: 1rem; /* Establece la altura de línea a 1 rem */
+    color:black; /* Establece el color del texto */
+    margin: 8px 0 14px 0; /* Define márgenes superior, derecho, inferior e izquierdo */
+}
+
+/* Estilo para los enlaces dentro del contenedor de "Olvidé mi contraseña" y "Registrarse" */
+.forgot a, .signup a {
+    color:#800080; /* Establece el color del texto de los enlaces */
+    text-decoration: none; /* Elimina la decoración de los enlaces (subrayado) */
+    font-size: 14px; /* Establece el tamaño de fuente a 14 píxeles */
+}
+
+/* Estilo para los enlaces cuando se colocan sobre ellos */
+.forgot a:hover, .signup a:hover {
+    text-decoration: none; /* Agrega subrayado al pasar el mouse sobre los enlaces */
+}
+
+/* Estilo para el botón de inicio de sesión */
+.sign {
+    margin-top: 1.5rem;
+    display: block; /* Hace que el botón sea un bloque que ocupa toda la anchura */
+    width: 100%; /* Establece el ancho al 100% del contenedor */
+    background-color: #7246C3; /* Establece el color de fondo del botón */
+    padding: 0.90rem; /* Agrega relleno interno al botón */
+    text-align: center; /* Alinea el texto al centro dentro del botón */
+    color:white; /* Establece el color del texto en el botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 3rem; /* Aplica bordes redondeados de 0.375rem al botón */
+    font-size: 1em;
+    font-weight: 300; /* Establece el peso de la fuente a 600 (negrita) */
+}
+
+
+/* Estilo para el mensaje social o de redes sociales */
+.social-message {
+    color:black;
+    display: flex; /* Usa el modelo de caja flexible */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    padding-top: 1rem; /* Agrega un relleno en la parte superior del mensaje */
+}
+
+/* Estilo para una línea horizontal */
+.line {
+    height: 1px; /* Establece la altura de la línea a 1 píxel */
+    flex: 1 1 0%; /* Define el comportamiento flexible de la línea */
+    background-color: #7246C3; /* Establece el color de fondo de la línea */
+}
+
+/* Estilo para el mensaje dentro del mensaje social */
+.social-message .message {
+    padding-left: 0.75rem; /* Agrega relleno a la izquierda del mensaje */
+    padding-right: 0.75rem; /* Agrega relleno a la derecha del mensaje */
+    font-size: 0.875rem; /* Establece el tamaño de fuente a 0.875 rem */
+    line-height: 1.25rem; /* Establece la altura de línea a 1.25 rem */
+    color:black;; /* Establece el color del texto en el mensaje */
+}
+
+/* Estilo para el contenedor de iconos de redes sociales */
+.social-icons {
+    display: flex; /* Usa el modelo de caja flexible */
+    justify-content: center; /* Alinea los elementos horizontalmente al centro */
+}
+
+/* Estilo para los iconos de redes sociales dentro del contenedor */
+.social-icons .icon {
+    border-radius: 0.125rem; /* Aplica bordes redondeados de 0.125rem a los iconos */
+    padding: 0.75rem; /* Agrega relleno alrededor de los iconos */
+    border: none; /* Elimina el borde de los iconos */
+    background-color: transparent; /* Establece el fondo de los iconos como transparente */
+    margin-left: 8px; /* Agrega un margen izquierdo de 8 píxeles entre los iconos */
+}
+
+/* Estilo para los gráficos SVG dentro de los iconos de redes sociales */
+.social-icons .icon svg {
+    height: 1.25rem; /* Establece la altura del gráfico SVG a 1.25 rem */
+    width: 1.25rem; /* Establece el ancho del gráfico SVG a 1.25 rem */
+    fill: #fff; /* Establece el color de relleno del gráfico SVG a blanco (#fff) */
+}
+
+/* Estilo para el texto "Registrarse" */
+.signup {
+    text-align: center; /* Alinea el texto al centro */
+    font-size: 0.75rem; /* Establece el tamaño de fuente a 0.75 rem */
+    line-height: 1rem; /* Establece la altura de línea a 1 rem */
+    color:black; /* Establece el color del texto */
+}
