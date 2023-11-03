@@ -1,3 +1,7 @@
+*{
+    font-family: 'Mooli', sans-serif;
+}
+
 .encabezado{
     background-color: #FF6D1F;
 }
@@ -34,7 +38,8 @@
 
 .botones{
     text-align: center;
-    padding: 1rem;
+    margin: 1rem;
+    border-radius: 30% 1rem;
 }
 
 a{
@@ -48,7 +53,6 @@ a :hover{
 }
 
 button{
-    border-radius: 50%;
     color: white;
 }
 
@@ -70,6 +74,15 @@ button{
 
 #tiktok{
     background-color: #8062D6;
+}
+
+.imagen1{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.imagen2{
+    margin-right: 1rem;
 }
 
 .pie{

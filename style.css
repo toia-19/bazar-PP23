@@ -16,6 +16,20 @@
     padding: 1rem;
 }
 
+.separador{
+    display: flex;
+    color: white;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    margin-bottom: 20px;
+    background: url('/imagenes/fondo-parallax.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 .titulo{
     text-align: center;
 }
