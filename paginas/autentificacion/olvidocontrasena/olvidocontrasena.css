@@ -4,6 +4,7 @@
 body {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: 'Gabarito', cursive; /* Fuente de texto */
     background: fixed;
     background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
@@ -19,12 +20,13 @@ body {
     border-radius: 1.5rem; /* Aplica bordes redondeados de 0.75rem */
     background-color: #EDEDED; /* Establece el fondo en negro */
     border: 1px solid white; /* Agrega un borde blanco de 1 píxel */
-    padding: 2rem; /* Agrega un relleno interno de 1 rem (unidad relativa) */
+    padding: 2rem 2rem 7rem 2rem; /* Agrega un relleno interno de 1 rem (unidad relativa) */
     color: black; /* Establece el color del texto */
 }
 
 /* Estilo para el título */
 .title {
+    margin-bottom: 1rem;
     text-align: center; /* Alinea el texto al centro */
     font-size: 2rem; /* Establece el tamaño de fuente a 2 rem (unidad relativa) */
     line-height: 2rem; /* Establece la altura de línea a 2 rem */
@@ -39,7 +41,7 @@ body {
 
 /* Estilo para el grupo de elementos de entrada (etiqueta y campo de entrada) */
 .input-group {
-    margin-top: 0.25rem; /* Agrega un pequeño margen en la parte superior */
+    margin-top: 0.1rem; /* Agrega un pequeño margen en la parte superior */
     font-size: 0.875rem; /* Establece el tamaño de fuente a 0.875 rem */
     line-height: 1.25rem; /* Establece la altura de línea a 1.25 rem */
 }
@@ -75,7 +77,8 @@ body {
     font-size: 0.75rem; /* Establece el tamaño de fuente a 0.75 rem */
     line-height: 1rem; /* Establece la altura de línea a 1 rem */
     color:black; /* Establece el color del texto */
-    margin: 8px 0 14px 0; /* Define márgenes superior, derecho, inferior e izquierdo */
+    margin: 30px 0 0px 0; /* Define márgenes superior, derecho, inferior e izquierdo */
+    
 }
 
 /* Estilo para los enlaces dentro del contenedor de "Olvidé mi contraseña" y "Registrarse" */
@@ -92,9 +95,11 @@ body {
 
 /* Estilo para el botón de inicio de sesión */
 .sign {
+    cursor: pointer;
+    text-decoration: none;
     margin-top: 1.5rem;
     display: block; /* Hace que el botón sea un bloque que ocupa toda la anchura */
-    width: 100%; /* Establece el ancho al 100% del contenedor */
+    width: 90%; /* Establece el ancho al 100% del contenedor */
     background-color: #7246C3; /* Establece el color de fondo del botón */
     padding: 0.90rem; /* Agrega relleno interno al botón */
     text-align: center; /* Alinea el texto al centro dentro del botón */
@@ -158,4 +163,17 @@ body {
     font-size: 0.75rem; /* Establece el tamaño de fuente a 0.75 rem */
     line-height: 1rem; /* Establece la altura de línea a 1 rem */
     color:black; /* Establece el color del texto */
+}
+
+.iconocandado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.linkboton{
+    color: white;
+    text-decoration: none;
 }
