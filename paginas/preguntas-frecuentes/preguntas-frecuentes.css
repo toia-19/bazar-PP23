@@ -14,6 +14,27 @@
     text-align: center;
 }
 
+.social-message {
+    color:black;
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.line {
+    height: 1px;
+    flex: 1 1 0%;
+    background-color: black;
+}
+
+.social-message .titulo {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    line-height: 1.25rem;
+    color:black;
+}
+
 .separador{
     padding: 1rem;
     background: rgb(117,255,71);

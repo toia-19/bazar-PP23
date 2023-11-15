@@ -14,10 +14,25 @@
     text-align: center;
 }
 
-.linea {
-    padding-top: 0em;
-    margin-top: 0em;
-    border-bottom: solid 2px #000;
+.social-message {
+    color:black;
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.line {
+    height: 1px;
+    flex: 1 1 0%;
+    background-color: black;
+}
+
+.social-message .titulo {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    line-height: 1.25rem;
+    color:black;
 }
 
 .separador{
