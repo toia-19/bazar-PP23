@@ -1,0 +1,104 @@
+/* CONTENIDO GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Mooli&display=swap');
+
+/* El signo "*" referencia a toda la estructura de la página */
+* {
+    font-family: 'Mooli', sans-serif;
+}
+
+/* NAVEGADOR */
+.encabezado {
+    background-color: #FF6D1F;
+}
+
+/* TITULO */
+.titulo{
+    text-align: center;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+/* CARDS */
+.container-productos {
+    min-height: 400px;
+    margin: 30px 0px 40px 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 30px;
+    width: 250px;
+    height: auto;
+    background: #f5f5f5;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: grid;
+}
+
+.card .title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #23211f;
+    margin-bottom: 5px;
+}
+
+.card .desc {
+    font-size: 15px;
+    opacity: .8;
+    margin-bottom: 3px;
+    color: #23211f;
+}
+
+.product {
+    margin: 10px 0;
+}
+
+.product img {
+    width: 100%;
+}
+
+.ext {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.precio {
+    color: #75ff47;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.button {
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #FF6D1F !important;
+    padding: 12px 18px;
+    cursor: pointer;
+    transition: all 300ms;
+    line-height: .95;
+    border: none;
+    background: none;
+    outline: none;
+    border: 1px solid #FF6D1F;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #FD9D49, #FF6D1F);
+    color: #fff !important;
+    border: none;
+}
+
+/* PIE DE PÁGINA */
+.pie {
+    background-color: #FF6D1F;
+}
+
