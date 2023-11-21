@@ -6,6 +6,56 @@
     font-family: 'Mooli', sans-serif;
 }
 
+.titulo-orange {
+    background-color: #FF6D1F;
+    padding: 0px;
+    text-align: center;
+    margin: 0%;
+    height: 8rem;
+
+}
+
+img {
+    padding: 0%;
+    margin: 0%;
+}
+
+.color-orangelight {
+    background-color: #FD9D49;
+    padding: 0%;
+}
+
+.elemento {
+    position: relative;
+    display: inline-block;
+}
+  
+.flecha {
+    margin-left: 4px; /* Ajusta el espacio entre el elemento y la flecha */
+    font-size: 8px; /* Ajusta el tamaño de la flecha */
+}
+
+nav {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul li {
+    display: inline;
+    text-align: center;
+    margin-right: 10px;
+}
+
+ul {
+    padding: 10px;
+    margin: 0%;
+}
+
+a {
+    font-size: small;
+}
+
 /* NAVEGADOR */
 .encabezado{
     background-color: #FF6D1F;
@@ -21,6 +71,43 @@
 }
 
 /* PIE DE PÁGINA */
-.pie{
+
+footer {
+    color: #fff;
+    padding: 4rem;
     background-color: #FF6D1F;
+    border-bottom: 1px solid black ;
+}
+
+.footer-item {
+    display: inline-block;
+    text-align: center;
+    padding: 0%;
+    color: black;
+}
+
+ul {
+    margin-right: 120px;
+    list-style: none;
+    padding: 0%;
+    margin-top: 0%;
+}
+
+.color-letra {
+    color: black;
+}
+
+.text-decoration {
+    text-decoration: none;
+}
+
+.arreglo-padding {
+    padding: 0.4rem;
+    background-color: #FFE4AD;
+}
+
+.div {
+    height: 5rem;
+    background-color: #FF6D1F;
+    text-align: center;
 }
