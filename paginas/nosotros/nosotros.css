@@ -57,40 +57,6 @@
     border-radius: 30% 1rem;
 }
 
-a{
-    color: white !important;
-    text-decoration: none;
-}
-
-a :hover{
-    color: white !important;
-    text-decoration: none;
-}
-
-button{
-    color: white;
-}
-
-#whatsapp{
-    background-color: #A2FF86;
-}
-
-#instagram{
-    background-color: #FF3FA4;
-}
-
-#facebook{
-    background-color: #687EFF;
-}
-
-#twitter{
-    background-color: #B6FFFA;
-}
-
-#tiktok{
-    background-color: #8062D6;
-}
-
 .imagen1{
     margin-left: 1rem;
     margin-top: 1rem;
