@@ -6,11 +6,6 @@
     font-family: 'Mooli', sans-serif;
 }
 
-/* NAVEGADOR */
-.encabezado {
-    background-color: #FF6D1F;
-}
-
 /* TITULO */
 .titulo{
     text-align: center;
@@ -97,8 +92,4 @@
     border: none;
 }
 
-/* PIE DE PÁGINA */
-.pie {
-    background-color: #FF6D1F;
-}
 

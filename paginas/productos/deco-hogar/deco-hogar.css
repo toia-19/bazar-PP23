@@ -6,10 +6,6 @@
     font-family: 'Mooli', sans-serif;
 }
 
-/* NAVEGADOR */
-.encabezado {
-    background-color: #FF6D1F;
-}
 
 /* TITULO */
 .titulo{
@@ -95,10 +91,5 @@
     background: linear-gradient(135deg, #FD9D49, #FF6D1F);
     color: #fff !important;
     border: none;
-}
-
-/* PIE DE PÁGINA */
-.pie {
-    background-color: #FF6D1F;
 }
 
