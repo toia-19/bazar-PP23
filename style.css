@@ -2,39 +2,156 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Mooli&display=swap');
 
 /* El signo "*" referencia a toda la estructura de la página */
-*{
-    font-family: 'Mooli', sans-serif;
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* NAVEGADOR */
-.encabezado{
+.encabezado {
     background-color: #FF6D1F;
 }
 
 /* CONTENIDO PRINCIPAL */
-.container{
+.container {
     padding: 1rem;
 }
 
-.separador{
+.separador11{
     display: flex;
-    color: white;
+    justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 50%;
-    margin-bottom: 20px;
-    background: url('/imagenes/fondo-parallax.png') no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    object-fit: center;
+    text-align: center;
 }
 
-.titulo{
+.separador1 {
+    padding: 0.5rem;
+    margin-top: 2rem;
+    width: 70%;
+    margin-bottom: 0.1rem;
+    background: rgb(219, 166, 128);
+    background: linear-gradient(0deg, #FF6B00 0%, #FFA811 47%, #FFE923 93%);
+
+    border-radius: 35% 20rem;
+
+    border-start-start-radius: 35% 20rem;
+    border-end-start-radius: 35% 20rem;
+
+    border-start-end-radius: 35% 20rem;
+    border-end-end-radius: 35% 20rem;
+}
+.separador {
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    background: rgb(255, 107, 0);
+    background: linear-gradient(0deg, rgba(255, 233, 35, 0.932) 0%, rgba(255, 168, 17, 1) 47%, rgba(255, 107, 0, 1) 93%);
+
+    border-radius: 35% 20rem;
+
+    border-start-start-radius: 35% 20rem;
+    border-end-start-radius: 35% 20rem;
+
+    border-start-end-radius: 35% 20rem;
+    border-end-end-radius: 35% 20rem;
+}
+
+.titulo {
     text-align: center;
 }
 
 /* PIE DE PÁGINA */
-.pie{
+.pie {
     background-color: #FF6D1F;
+    margin-top: 50px;
+}
+
+/* Incio - carrucel*/
+/* styles.css */
+
+/* Ajustar el tamaño de las imágenes del carrusel y las tarjetas */
+.carousel-item img,
+.card img {
+    /* Cambiar el selector para card-img-top */
+    object-fit: cover;
+    width: 100% !important;
+    height: 30% !important;
+}
+
+/* Ajustar el tamaño de las tarjetas */
+.card {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    object-fit: cover;
+    width: 100px !important;
+    height: 100px !important;
+    /* Puedes agregar más estilos según sea necesario */
+}
+
+.card2 {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-top: 50px;
+    object-fit: cover;
+    width: 150px !important;
+    height: 100px !important;
+    /* Puedes agregar más estilos según sea necesario */
+
+}
+
+#imagentarjeta2 {
+    border-radius: 0.5rem;
+    width: 100% !important;
+    height: 100% !important;
+    filter: none;
+    color: white;
+    font-size: 24px;
+    transition: filter 0.7s;
+}
+
+.textotarjeta2 {
+    margin-top: 10px;
+}
+
+
+#imagen-c {
+    width: 100% !important;
+    height: 500px !important;
+}
+
+#imagentarjeta {
+    border-radius: 0.2rem;
+    width: 100% !important;
+    height: 100% !important;
+    filter: none;
+    color: white;
+    font-size: 24px;
+    transition: filter 0.7s;
+}
+
+.textotarjeta {
+    margin-top: 10px;
+}
+
+.card-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: center;
+    text-align: center;
+}
+
+#imagentarjeta:hover {
+    content: attr(data-text);
+    filter: blur(2px);
+    transition: filter 0.7s;
+}
+
+#imagentarjeta2:hover {
+    content: attr(data-text);
+    filter: blur(2px);
+    transition: filter 0.7s;
 }
