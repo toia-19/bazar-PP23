@@ -3,7 +3,7 @@
 
 /* El signo "*" referencia a toda la estructura de la página */
 *{
-    font-family: 'Mooli', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 /*ENCABEZADO SUPERIOR*/
@@ -62,13 +62,17 @@ a {
 .container {
     padding: 1rem;
 }
-
+.rowparallax {
+    margin-top: 4rem;
+}
 .separador-parallax{
     display: flex;
+    justify-content: center;
+    text-align: center;
     color: white;
     align-items: center;
-    height: 100%;
-    width: 50%;
+    height: 10rem;
+    width: 100%;
     margin-bottom: 20px;
     background: url('/imagenes/inicio/separador.jpg') no-repeat;
     background-size: cover;
@@ -123,6 +127,7 @@ a {
 
 .card2 {
     text-align: center;
+    margin-bottom: 3rem;
     margin-left: 100px;
     margin-right: 70px;
     margin-top: 50px;
@@ -142,8 +147,11 @@ a {
     transition: filter 0.7s;
 }
 
+/* Este es el texto de la segunda linea de tarjetas */
 .textotarjeta2 {
+    text-transform: uppercase;
     margin-top: 10px;
+    font-weight: 600;
 }
 
 
@@ -162,8 +170,11 @@ a {
     transition: filter 0.7s;
 }
 
+
 .textotarjeta {
+    text-transform: uppercase;
     margin-top: 10px;
+    font-weight: 600;
 }
 
 .card-group{
@@ -202,7 +213,7 @@ footer {
 }
 
 ul {
-    margin-right: 120px;
+    margin-right: 90px;
     list-style: none;
     padding: 0%;
     margin-top: 0%;
