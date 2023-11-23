@@ -26,10 +26,12 @@
     position: relative;
     display: inline-block;
 }
-  
+
 .flecha {
-    margin-left: 4px; /* Ajusta el espacio entre el elemento y la flecha */
-    font-size: 8px; /* Ajusta el tamaño de la flecha */
+    margin-left: 4px;
+    /* Ajusta el espacio entre el elemento y la flecha */
+    font-size: 8px;
+    /* Ajusta el tamaño de la flecha */
 }
 
 nav {
@@ -54,7 +56,7 @@ a {
 }
 
 /* NAVEGADOR */
-.encabezado{
+.encabezado {
     background-color: #FF6D1F;
 }
 
@@ -109,8 +111,7 @@ a {
 .card img {
     /* Cambiar el selector para card-img-top */
     object-fit: cover;
-    width: 100% !important;
-    height: 30% !important;
+    width: auto;
 }
 
 /* Ajustar el tamaño de las tarjetas */
@@ -177,7 +178,7 @@ a {
     font-weight: 600;
 }
 
-.card-group{
+.card-group {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,7 +203,7 @@ footer {
     color: #fff;
     padding: 4rem;
     background-color: #FF6D1F;
-    border-bottom: 1px solid black ;
+    border-bottom: 1px solid black;
 }
 
 .footer-item {
@@ -246,36 +247,36 @@ ul {
 }
 
 /* BOTONES REDES SOCIALES*/
-button .icon{
+button .icon {
     color: white !important;
     text-decoration: none;
 }
 
-a .icon :hover{
+a .icon :hover {
     color: white !important;
     text-decoration: none;
 }
 
-button{
+button {
     color: white;
 }
 
-#whatsapp{
+#whatsapp {
     background-color: #A2FF86;
 }
 
-#instagram{
+#instagram {
     background-color: #FF3FA4;
 }
 
-#facebook{
+#facebook {
     background-color: #687EFF;
 }
 
-#twitter{
+#twitter {
     background-color: #B6FFFA;
 }
 
-#tiktok{
+#tiktok {
     background-color: #8062D6;
 }

@@ -36,6 +36,8 @@
 }
 
 .separador{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     padding: 1rem;
     background: rgb(117,255,71);
     background: linear-gradient(0deg, rgba(237,252,232,1) 0%, rgba(187,255,165,1) 47%, rgba(117,255,71,1) 93%);
@@ -48,9 +50,15 @@
     border-end-end-radius: 35% 20rem;
 }
 
-.botones{
+.imagenesnosotros{
     text-align: center;
     padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.imagenespagos{
+    margin-right: 2rem;
+    margin-top: 1rem;
 }
 
 .pie{
