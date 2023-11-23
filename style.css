@@ -213,6 +213,12 @@ footer {
     color: black;
 }
 
+.footer-item a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
 ul {
     margin-right: 90px;
     list-style: none;
